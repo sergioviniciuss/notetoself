@@ -3,7 +3,8 @@ import  { mount } from 'enzyme';
 import Note from './Note';
 
 
-const props = { note: { text: 'test_note' }}
+const props = { note: { text: 'test_note' }};
+
 describe('Note', ()=> {
     // let note = mount(<Note note={props.note} />);
     let note = mount(<Note {...props} />);
